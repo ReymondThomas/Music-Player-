@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- navbar starts here -->
+    <nav>
+        <ul>
+            <li class="logo"><img src="./images/logo.png" alt=""><span class="logo-name">Mʊֆɨզ</span></li>
+            <div class="right-nav-links">
+                <a href="#footer-main">
+                    <li class="nav-links2">About</li>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+    <div class="container">
+        <div class="songList">
+            <h1>Play Your Favourite Songs for free</h1>
+            <div class="songs-main">
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">03:32 <i id="1"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="2"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">04:02 <i id="3"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="4"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">07:23 <i id="5"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">05:21 <i id="6"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="./images/snowman.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timestamp">03:37 <i id="7"
+                                class="fa-regular songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songgif">
+            <img src="./images/songplayinggif.gif" alt="" id="gif">
+            <span id="bottom-song-name"></span>
+        </div>
+    </div>
+    <div id="footer-main">
+        <h1>Listen To Your Favourite Albums in <span style="color: rgb(231, 98, 120);">Mʊֆɨզ</span></h1>
+        <h3>Designed and Developed By <span style="color: rgb(231, 98, 120);">Reymond Thomas ©</span></h3>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
